@@ -103,7 +103,7 @@ const Navbar = ({ setShowProfile }) => {
             <div className={styles.userdropdownMenu} ref={dropdownRef}>
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/UserHome">Home</a>
                 </li>
                 <li>
                   <a href="/dashboard">Dashboard</a>
