@@ -1,0 +1,173 @@
+:root {
+    --primary-color: #064660;
+    --secondary-color: aqua;
+    --my-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+.summaryContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #064660 50%, transparent 50%);
+    margin: 1px;
+    margin-top:65px
+  }
+  .summaryCard {
+    width: 90%;
+    background-color: white;
+   border-radius: 3px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+   
+    position: relative;
+    overflow: hidden;
+  }
+
+  .summaryCard h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+.backBtn{
+    width:180px;
+    background-color: #064660;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    margin-top: 10px;
+    font-family: var(--my-font);
+    margin: 10px;
+  }
+  .backBtn:hover {
+    background-color: rgb(246, 249, 249);
+    transform: scale(1.05);
+    color:#064660;
+    font-weight: bold;
+    border: 1px solid var(--primary-color);
+  }
+  
+  
+  
+  .summaryBox {
+    padding: 15px;
+   width: 70%;
+   margin: 0 auto;
+    background-color:white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+  flex-direction: column; /* Aligns items vertically */
+  align-items: center; /* Centers text horizontally */
+  gap: 10px; /* Adds spacing between items */
+  }
+  
+  .summaryItem {
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 100%; /* Ensures full width */
+  text-align: center; /* Centers text */
+  }
+  
+  .owe {
+    color: #c0392b; /* Red for owed */
+  }
+  
+  .receive {
+    color: #27ae60; /* Green for received */
+  }
+  
+  .noBalance {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .container {
+    padding: 20px;
+    width: 87%;
+    margin: 0 auto;
+    text-align: center;
+   
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  .transactionList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .transactionDate, .transactionCategory{
+    color:var(--primary-color);
+  }
+  .transactionCard {
+    padding: 15px;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .transactionDetails {
+    margin-top: 10px;
+  }
+  
+  .transactionItem {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .noTransactions {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .loading {
+    color: #064660;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+/* Responsive Design */
+@media (max-width: 500px) {
+    .summaryCard {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .summaryCard h2 {
+      font-size: 1.5rem;
+    }
+      
+  .summaryBox {
+    padding: 10px;
+   width: 95%;
+   margin: 0 auto;
+  gap: 8px; 
+  }
+    .summaryItem {
+        font-size: 0.8rem;
+       
+       
+      }
+      .container {
+        padding: 15px;
+        width: 100%;
+      }
+}  
