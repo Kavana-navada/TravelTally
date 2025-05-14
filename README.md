@@ -27,6 +27,24 @@
 
 ## 🖼️ Screenshots
 
+### Dashboard
+<img src="assets/screenshots/dashboard.png" alt="Dashboard" width="500"/>
+
+### Trips Information  
+<img src="assets/screenshots/trip.png" alt="Trip" width="500"/>
+
+### Itinerary 
+<img src="assets/screenshots/itinerary.png" alt="Itinerary Page" width="500"/>  
+
+### Adding Expenses
+<img src="assets/screenshots/addexpense.png" alt="addexpense" width="500"/>  
+
+### Expenses Settlement
+<img src="assets/screenshots/expensesettlement.png" alt="addexpense" width="500"/>  
+
+### 🔗 Mobile View 
+<img src="assets/screenshots/mobileexpense.png" alt="mbl" width="200"/>  
+
 ## ✅ Setup Instructions
 
 1. Clone the repo  
